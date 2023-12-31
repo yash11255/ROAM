@@ -1,4 +1,4 @@
-pip install -U scikit-fuzzy
+!pip install scikit-fuzzy
 # Triangular function (without skfuzzy):#
 import matplotlib.pyplot as plt
 import numpy as np
@@ -86,4 +86,3 @@ plt.xlabel('x')
 plt.ylabel('Membership Value')
 plt.legend()
 plt.show()
-
